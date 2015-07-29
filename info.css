@@ -1,0 +1,71 @@
+.info{
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+.image{
+	padding: 0;
+	margin: 0;
+}
+
+.border{
+	border: 1px solid #E8E8E8;
+}
+
+.thumsnails{
+	width: 60px;
+	float: left;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-top: 5px;
+	background: #FFFFFF;
+	text-align: center;
+}
+
+.entry-title-box{
+	float: left;
+	margin: 5px;
+}
+
+.entry-title-box h2{
+	font-size: 1.6em;
+	padding: 2px 0 5px;
+}
+
+.entry-title-box h2 a, .entry-title-box h2 a:visited{
+	color: #164a84;
+}
+
+.entry-title-box time{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.btn_position{
+	text-align: right;
+}
+.btn a,.btn a:visited{
+	color: #164a84;
+}
+
+.btn a:link{
+	text-decoration: none;
+}
+
+.btn{
+	border: 1px solid #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 10px;
+	margin: 20px 0;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.13, rgb(224,220,224)),color-stop(0.79, rgb(255,255,255)));
+	background: -moz-linear-gradient(center bottom,rgb(224,220,224) 13%,rgb(255,255,255) 79%);
+}
+
+.thumbnail-text{
+	clear: both;
+	margin-top: 10px;
+	font-size: 1.4em;
+}
