@@ -10,15 +10,15 @@
     <title>Lonely - Free bootstrap 3 one page template</title>
 
     <!-- CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/nivo-lightbox.css" rel="stylesheet" />
-    <link href="/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-    <link href="/css/owl.carousel.css" rel="stylesheet" media="screen" />
-    <link href="/css/owl.theme.css" rel="stylesheet" media="screen" />
-    <link href="/css/animate.css" rel="stylesheet" />
-    <link href="/css/style.css" rel="stylesheet">
-    <link href="/color/default.css" rel="stylesheet">
+    <link href="/imachan/app/webroot/imachan/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/imachan/app/webroot/imachan/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/imachan/app/webroot/imachan/css/nivo-lightbox.css" rel="stylesheet" />
+    <link href="/imachan/app/webroot/imachan/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+    <link href="/imachan/app/webroot/imachan/css/owl.carousel.css" rel="stylesheet" media="screen" />
+    <link href="/imachan/app/webroot/imachan/css/owl.theme.css" rel="stylesheet" media="screen" />
+    <link href="/imachan/app/webroot/imachan/css/animate.css" rel="stylesheet" />
+    <link href="/imachan/app/webroot/imachan/css/style.css" rel="stylesheet">
+    <link href="/imachan/app/webroot/imachan/color/default.css" rel="stylesheet">
 
 </head>
 
@@ -32,7 +32,7 @@
     <section id="intro" class="intro">
 
         <div class="slogan">
-            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+            <a href="index.html"><img src="/imachan/app/webroot/imachan/img/logo.png" alt="" /></a>
         </div>
         <div class="page-scroll">
             <a href="#about">
@@ -95,7 +95,7 @@
             <div class="row">
                 <div class="col-md-6">
 
-                    <img src="img/img1.jpg" class="img-responsive img-rounded" alt="" />
+                    <img src="/imachan/app/webroot/imachan/img/img1.jpg" class="img-responsive img-rounded" alt="" />
                 </div>
                 <div class="col-md-6">
                     <p><strong>You'll fall in love with me at the first sight</strong></p>
@@ -179,14 +179,13 @@
                 <div class="col-sm-12 col-md-12 col-lg-12" >
                     <div class="wow bounceInUp" data-wow-delay="0.4s">
                     <div id="owl-works" class="owl-carousel">
-                        <div class="item"><a href="img/gallery/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/1.jpg" class="img-responsive" alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/2.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/3.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/4.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/5.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/5.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/6.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/6.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/7.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/7.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/8.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/8.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/1.jpg" class="img-responsive" alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/2.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/3.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/4.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/6.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/6.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/7.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/7.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/8.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/8.jpg" class="img-responsive " alt="img"></a></div>
                     </div>
                     </div>
                 </div>
@@ -283,17 +282,17 @@
     </footer>
 
     <!-- Core JavaScript Files -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/jquery.easing.min.js"></script>
-    <script src="/js/jquery.sticky.js"></script>
-    <script src="/js/jquery.scrollTo.js"></script>
-    <script src="/js/stellar.js"></script>
-    <script src="/js/wow.min.js"></script>
-    <script src="/js/owl.carousel.min.js"></script>
-    <script src="/js/nivo-lightbox.min.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/jquery.min.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/bootstrap.min.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/jquery.easing.min.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/jquery.sticky.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/jquery.scrollTo.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/stellar.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/wow.min.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/owl.carousel.min.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/nivo-lightbox.min.js"></script>
     <!-- Custom Theme JavaScript -->
-    <script src="/js/custom.js"></script>
+    <script src="/imachan/app/webroot/imachan/js/custom.js"></script>
 
 </body>
 
