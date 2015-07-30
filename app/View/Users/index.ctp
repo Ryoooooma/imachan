@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="utf-8">
@@ -42,38 +42,6 @@
     </section>
   <!-- /Section: intro -->
   
-    <!-- Navigation -->
-    <div id="navigation">
-        <nav class="navbar navbar-custom" role="navigation">
-                              <div class="container">
-                                    <div class="row">
-                                          <div class="col-md-12">
-                         
-                                          <!-- Brand and toggle get grouped for better mobile display -->
-                                          <div class="navbar-header">
-                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                                                <i class="fa fa-bars"></i>
-                                                </button>
-                                          </div>
-                                                      <!-- Collect the nav links, forms, and other content for toggling -->
-                                                      <div class="collapse navbar-collapse" id="menu">
-                                                            <ul class="nav navbar-nav">
-                                                                  <li class="active"><a href="#intro">Home</a></li>
-                                                                  <li><a href="#about">model recruitment</a></li>
-                                      <li><a href="#gallery">Post</a></li>                                                                                                             
-                                                                  <li><a href="#contact">photo garally</a></li>
-                                                            </ul>
-                                                      </div>
-                                                      <!-- /.Navbar-collapse -->
-                             
-                                          </div>
-                                    </div>
-                              </div>
-                              <!-- /.container -->
-                        </nav>
-    </div> 
-    <!-- /Navigation -->  
-
   <!-- Section: about -->
     <section id="about" class="home-section">
     <div class="container">
@@ -222,16 +190,6 @@
     </div>
   </section>
   <!-- /Section: services -->
-  
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-lg-12">
-          <p>&copy;Copyright 2014 . Alice Lonely . design by <a href="">Bootstraptaste</a></p>
-        </div>
-      </div>  
-    </div>
-  </footer>
 
     <!-- Core JavaScript Files -->
     <script src="/imachan/app/webroot/imachan/js/jquery.min.js"></script>
