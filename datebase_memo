@@ -1,0 +1,44 @@
+
+create table areas (
+	id int auto_increment primary key not null,
+	name varchar(100) not null
+);
+
+ID	id	int	NO	PRI	作成時に取得	auto_increment
+名前	name	varchar(100)	NO	-	空の名前	
+パスワード	password	varchar(100) 	NO	-	空のパスワード	
+ユーザータイプ	user_type	varchar(10) 	NO	-	空のユーザータイプ	
+性別	gender	varchar(10)	NO	-	空の性別	
+髪の長さ	hair_style	varchar(10)	NO	-	空の髪の長さ種類	
+電話番号	phone_number	int	NO	-		
+メールアドレス	email	varchar(100)	NO	-	空のメールアドレス	
+エリアID	area_id	int	NO	-	作成時に取得	
+住所	address	varchar(100) 	NO	-	空の住所	
+作成日時	created	DATETIME 	NO	-	空のデータ	
+修正日時	modified	DATETIME 	NO	-	修正前のテキスト	
+
+
+create table users (
+	id int not null primary key auto_increment,
+	name varchar(100) not null,
+	password varchar(100) not null,
+	user_type varchar(10) not null,
+	gender varchar(10) not null,
+	hair_style varchar(100) not null,
+	phone int not null,
+	email varchar(100) not null,
+	area_id int not null,
+	address varchar(100) not null,
+	created datetime not null,
+	modified datetime not null
+);
+
+insert into  (title, body, created, modified) values 
+('title_1', 'body_1', 'now()', 'now()'),
+('title_2', 'body_2', 'now()', 'now()'),
+('title_3', 'body_3', 'now()', 'now()')
+
+
+ALTER TABLE  `imachan` ADD  
+`status` INT NOT NULL DEFAULT  '0' AFTER `body` ,
+ADD  `due_date` DATE NULL DEFAULT NULL AFTER  `status`;
