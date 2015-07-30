@@ -1,5 +1,4 @@
-	<?php echo $this->Html->css('cake.generic'); ?>
-	<?php echo $this->fetch('css'); ?>
+
 
 <div class="users form">
 <?php echo $this->Form->create('User'); ?>
