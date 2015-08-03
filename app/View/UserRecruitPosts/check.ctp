@@ -6,28 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="../../userrecruitposts.min.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/userrecruitposts.css">
-    <script src="http://bootsnipp.com/dist/scripts.min.js"></script>
-    <script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js"></script>
-    <script type="text/javascript" src="http://cdn.buysellads.com/ac/audience.js"></script>
-    
-
+    <link href="/imachan/app/webroot/imachan/css//yuta/bootstrap.min.css" rel="stylesheet" type="text/css">
+     <link href="/imachan/app/webroot/imachan/css/yuta/change.css" rel="stylesheet" type="text/css">
+     
 
 
   </head>
   <body>
-   <div class="container">
-    <div class="row">
-        <div class="span4 well" style="padding-bottom:0">
-            <form accept-charset="UTF-8" action="" method="POST">
-                <textarea class="span4" id="new_message" name="new_message"
-                placeholder="Type in your message" rows="5"></textarea>
-                <h1><button class="btn btn-info" type="submit">この内容で募集</button></H1>
-            </form>
-        </div>
+  <div class="well">
+  <ul class="nav nav-tabs">
+  </ul>
+    <div class="sample1">
+    <h2>確認画面</h2>
+    </br>
+    <h4>以下の内容で、モデルの募集をしますか？</h4>
     </div>
-</div>
+   <div style="margin:0px;padding:0px;" align="center">
+    <table width="400px" style="border-collapse: collapse;border:2px solid #FFD1E4;background-color:#FFFFFF;color:#000000;text-align:left;">
+    <tbody>
+      <tr><td style="border:2px solid #FFD1E4;text-align:left;">施術内容</td><td style="border:2px solid #FFD1E4;text-align:left;">　</td></tr><tr><td style="border:2px solid #FFD1E4;text-align:left;">対象性別</td><td style="border:2px solid #FFD1E4;text-align:left;">&nbsp;</td></tr><tr><td style="border:2px solid #FFD1E4;text-align:left;">対象モデル</td><td style="border:2px solid #FFD1E4;text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr><tr><td style="border:2px solid #FFD1E4;text-align:left;">料金</td><td style="border:2px solid #FFD1E4;text-align:left;">&nbsp;</td></tr><tr><td style="border:2px solid #FFD1E4;text-align:left;">募集時間帯</td><td style="border:2px solid #FFD1E4;text-align:left;">&nbsp;</td></tr><tr><td style="border:2px solid #FFD1E4;text-align:left;">募集開始日</td><td style="border:2px solid #FFD1E4;text-align:left;">&nbsp;</td></tr><tr><td style="border:2px solid #FFD1E4;text-align:left;">募集終了日</td><td style="border:2px solid #FFD1E4;text-align:left;">&nbsp;</td></tr><tr><td style="border:2px solid #FFD1E4;text-align:left;">募集の題名</td><td style="border:2px solid #FFD1E4;text-align:left;">&nbsp;</td></tr><tr><td style="border:2px solid #FFD1E4;text-align:left;">募集の詳細</td><td style="border:2px solid #FFD1E4;text-align:left;">&nbsp;</td></tr></tbody></table></div>
+    </br>
+    </br>
+
+     <div class="sample1">
+     <button class="btn btn-primary">この条件でモデルを募集</button>
+     </div>
+  </div>
   </body>
 </html>
