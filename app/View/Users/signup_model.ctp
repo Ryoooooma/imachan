@@ -1,14 +1,13 @@
 
-
 <div class="users form">
 <?php echo $this->Form->create('User'); ?>
     <fieldset>
-        <legend><?php echo __('ユーザー登録をしてください。'); ?></legend>
+        <?php echo __('ユーザー登録をしてください。'); ?>
         <?php 
 	        echo $this->Form->input('username');
 	        echo $this->Form->input('password');
-	        echo $this->Form->input('role', array(
-	            'options' => array('admin' => 'Admin', 'author' => 'Author')
+	        echo $this->Form->input('user_type', array(
+	            'options' => array('model' => 'Model', 'stylist' => 'Stylist')
 	        ));
     	?>
     </fieldset>

@@ -5,7 +5,10 @@ class UsersController extends AppController {
     	
     }
 
-    public function signup() {
+    public function signup_model() {
+    }
+
+    public function signup_stylist() {
     }
 
     public function login() {
