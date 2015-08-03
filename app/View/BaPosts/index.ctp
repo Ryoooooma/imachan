@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="utf-8">
@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Lonely - Free bootstrap 3 one page template</title>
+    <title>Imachan</title>
 
     <!-- CSS -->
     <link href="/imachan/app/webroot/imachan/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -28,20 +28,6 @@
       <div id="load"></div>
     </div>
 
-    <!-- Section: intro -->
-    <section id="intro" class="intro">
-
-        <div class="slogan">
-            <a href="index.html"><img src="/imachan/app/webroot/imachan/img/logo.png" alt="" /></a>
-        </div>
-        <div class="page-scroll">
-            <a href="#about">
-                <i class="fa fa-angle-down fa-5x animated"></i>
-            </a>
-        </div>
-    </section>
-    <!-- /Section: intro -->
-
     <!-- Navigation -->
     <div id="navigation">
         <nav class="navbar navbar-custom" role="navigation">
@@ -59,9 +45,8 @@
                                                       <div class="collapse navbar-collapse" id="menu">
                                                             <ul class="nav navbar-nav">
                                                                   <li class="active"><a href="#intro">Home</a></li>
-                                                                  <li><a href="#about">About Me</a></li>
-                                                                  <li><a href="#gallery">My gallery</a></li>
-                                                                  <li><a href="#contact">Talk to me</a></li>
+                                                                  <li><a href="#about">募集一覧</a></li>
+                                                                  <li><a href="#gallery">Bfore/After</a></li>
                                                             </ul>
                                                       </div>
                                                       <!-- /.Navbar-collapse -->
@@ -72,46 +57,227 @@
                               <!-- /.container -->
                         </nav>
     </div>
-    <!-- /Navigation -->
-
-    <!-- Section: about -->
-    <section id="about" class="home-section">
-        <div class="container">
+        <!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+        <div class="heading-contact">
+            <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 col-md-offset-2">
 
-                        <div class="section-heading text-center">
-                        <div class="wow bounceInDown" data-wow-delay="0.2s">
-                            <h2>My name is Alice</h2>
-                        </div>
-                        <p class="wow bounceInUp" data-wow-delay="0.3s">I'm 28 years old from a village near Alpen mountain and I'm a spinster :(</p>
-                        </div>
+                    <div class="section-heading">
+                    <div class="wow bounceInDown" data-wow-delay="0.4s">
+                    <h2>Befor/After 一覧</h2>
+                    </div>
+                    <p class="wow lightSpeedIn" data-wow-delay="0.3s">Take a look at our picture, enjoy Imachan!</p>
+                    </div>
 
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+
+    <div class="row">
+        <div class="col-lg-8 col-md-offset-2">
+            <div class="form-wrapper marginbot-50">
+                <form id="contact-form">
+                <div class="row">
+
+                        <div class="form-group">
+<!--                             <label for="name">
+                                Name</label> -->
+                            <span class="lead"><i class="fa fa-camera-retro fa-lg"></i>&nbsp;After</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="lead"><i class="fa fa-camera-retro fa-lg"></i>&nbsp;Before</span>
+                        </div>
+                            <input type="text" class="form-control" id="name" placeholder="Please share your experience" required="required" /><a href="#gallery" class="btn btn-skin btn-lg btn-scroll">投稿する</a>
+                </div>
+                </form>
+            </div>
+
+
+
+                    <div>
+                    <a href="#gallery" class="btn btn-default btn-lg btn-scroll">ショート</a>
+                    <a href="#gallery" class="btn btn-default btn-lg btn-scroll">ボブ</a>
+                    <a href="#gallery" class="btn btn-default btn-lg btn-scroll">セミロング</a>
+                    <a href="#gallery" class="btn btn-default btn-lg btn-scroll">ロング</a>
+                    <a href="#gallery" class="btn btn-default btn-lg btn-scroll">その他</a></br>
+                    </br>
+                    <a href="#gallery" class="btn btn-default btn-lg btn-scroll">春</a>
+                    <a href="#gallery" class="btn btn-default btn-lg btn-scroll">夏</a>
+                    <a href="#gallery" class="btn btn-default btn-lg btn-scroll">秋</a>
+                    <a href="#gallery" class="btn btn-default btn-lg btn-scroll">冬</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</br>
+<div class="container">
+        <div class="row text-center">
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" height="800" alt="" >
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-
-                    <img src="/imachan/app/webroot/imachan/img/img1.jpg" class="img-responsive img-rounded" alt="" />
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <p><strong>You'll fall in love with me at the first sight</strong></p>
-                    <p>
-                    Lorem ipsum dolor sit amet, ei purto tamquam ceteros his, eos in graece posidonium.
-                    Ex nullam vidisse salutatus sed, ea persius phaedrum tincidunt vel. Option virtute nonumes ne est.
-                    Id homero expetendis eam, dictas rationibus ut has.
-                    </p>
-                    <blockquote>
-                    Pri pertinacia elaboraret te, an eirmod delicatissimi nec. Eu liber quodsi maiorum mei.
-                    Civibus perfecto rationibus id his, est noster nostrud aliquando at.
-                    </blockquote>
-                    <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">See my photos</a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+</div>
     </section>
     <!-- /Section: about -->
 
@@ -125,7 +291,7 @@
                             <div class="icon">
                                 <i class="fa fa-graduation-cap fa-5x"></i>
                             </div>
-                        <span class="color-white">Bachelor of Design</span>
+                        <span class="color-white">ショート</span>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-3">
@@ -133,7 +299,7 @@
                             <div class="icon">
                                 <i class="fa fa-heart fa-5x"></i>
                             </div>
-                        <span class="color-white">10x failed in love</span>
+                        <span class="color-white">セミロング</span>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-3">
@@ -141,7 +307,7 @@
                             <div class="icon">
                                 <i class="fa fa-plane fa-5x"></i>
                             </div>
-                        <span class="color-white">I love traveling</span>
+                        <span class="color-white">ロング</span>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-3">
@@ -149,7 +315,7 @@
                             <div class="icon">
                                 <i class="fa fa-camera fa-5x"></i>
                             </div>
-                        <span class="color-white">I'm photographer</span>
+                        <span class="color-white">その他</span>
                         </div>
                     </div>
             </div>
@@ -197,79 +363,7 @@
 
 
 
-    <!-- Section: contact -->
-    <section id="contact" class="home-section text-center">
-        <div class="heading-contact">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-offset-2">
 
-                    <div class="section-heading">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    <h2>Email or phone are welcome</h2>
-                    </div>
-                    <p class="wow lightSpeedIn" data-wow-delay="0.3s">Gentleman, introduce your self and get in touch with me privately</p>
-                    </div>
-
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-
-    <div class="row">
-        <div class="col-lg-8 col-md-offset-2">
-            <div class="form-wrapper marginbot-50">
-                <form id="contact-form">
-                <div class="row">
-
-                        <div class="form-group">
-                            <label for="name">
-                                Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email">
-                                Email Address</label>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">
-                                Subject</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choose One:</option>
-                                <option value="service">Friendship request</option>
-                                <option value="suggestions">Wanna marry you</option>
-                                <option value="product">Prom night invitation</option>
-                            </select>
-                        </div>
-
-
-                        <div class="form-group">
-                            <label for="name">
-                                Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Message"></textarea>
-                        </div>
-
-
-                        <button type="submit" class="btn btn-skin btn-block" id="btnContactUs">
-                            Send Message</button>
-
-                </div>
-                </form>
-
-            </div>
-            <div class="text-center">
-                    <p class="lead"><i class="fa fa-phone"></i> Call me +1 888 9796 88</p>
-            </div>
-        </div>
-
-    </div>
-
-        </div>
-    </section>
-    <!-- /Section: contact -->
 
     <footer>
         <div class="container">
