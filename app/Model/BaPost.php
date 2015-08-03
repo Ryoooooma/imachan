@@ -1,5 +1,5 @@
 <?php
-class Post extends AppModel {
+class BaPost extends AppModel {
     public $validate = array(
         'body' => array(
             'rule' => 'notEmpty'

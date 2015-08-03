@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Imacenは『髪を切りたい美容師さん』と『髪を切ってもらいたいモデルさん』のマッチングサービスです。">
+    <meta name="author" content="yukino.oniwa">
 
     <title>Imachan</title>
 
@@ -113,14 +113,14 @@
 </br>
 <div class="container">
         <div class="row text-center">
-
+        </section>
 <!--         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12" >
                     <div class="wow bounceInUp" data-wow-delay="0.4s">
                     <div id="owl-works" class="owl-carousel"> -->
 
-
+    <section id="gallery" class="home-section text-center bg-gray">
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
                     <img src="http://placehold.it/265x300" alt="" >
@@ -353,54 +353,12 @@
         </div>
 </div>
     </section>
+
     <!-- /Section: about -->
 
 
 
-    <section id="gallery" class="home-section text-center bg-gray">
 
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    </div>
-                </div>
-            </div>
-            </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12" >
-                    <div class="wow bounceInUp" data-wow-delay="0.4s">
-                    <div id="owl-works" class="owl-carousel">
-
-<!--             <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/265x300" alt="">
-                    <div class="caption">
-                    </br>
-                        <h4>投稿者&nbsp;→&nbsp;美容室</h4>
-                        <p>コメントコメントコメント</p>
-                        <p>
-                            <div class="item"><a href="#" class="btn btn-default">More Info</a></div>
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-
-                        <div class="item"><a href="img/gallery/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/1.jpg" class="img-responsive" alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/2.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/3.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/4.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/6.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/6.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/7.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/7.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/8.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/imachan/app/webroot/imachan/img/gallery/8.jpg" class="img-responsive " alt="img"></a></div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 
@@ -457,8 +415,6 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="wow bounceInDown" data-wow-delay="0.4s">
                     <div class="section-heading">
-                        <h2>My photo gallery</h2>
-                        <p>Take a look at my personal moment, enjoy</p>
                     </div>
                     </div>
                 </div>
@@ -484,11 +440,6 @@
         </div>
     </section>
     <!-- /Section: services -->
-
-
-
-
-
 
     <footer>
         <div class="container">
