@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +19,38 @@
 </head>
 
 <body>
-  
+<?php echo $this->Html->link(
+    'Add',
+    array('controller' => 'UserRecruitPosts', 'action' => 'add')
+); ?>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Created</th>
+    </tr>
+
+    <!-- ここから、$posts配列をループして、投稿記事の情報を表示 -->
+
+    <?php foreach ($userrecruitposts as $post): ?>
+    <tr>
+        <td><?php echo $post['UserRecruitPost']['id']; ?></td>
+        <td>
+            <?php echo $this->Html->link($post['UserRecruitPost']['title'],
+array('controller' => 'userrecruitposts', 'action' => 'view', $post['UserRecruitPost']['id'])); ?>
+        </td>
+        <td><?php echo $post['UserRecruitPost']['created']; ?></td>
+    </tr>
+    <?php endforeach; ?>
+    <?php unset($post); ?>
+</table>
+
+
+
+
+
+
+
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </br>
 	<div class="sample1">
