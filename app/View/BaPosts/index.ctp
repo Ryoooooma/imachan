@@ -81,68 +81,13 @@
               </div>
                 </div>
 
-
-
-
-
-
-<!-- 投稿ブロック -->
-    <div class="row">
-      <div class="col-lg-8 col-md-offset-2">
-        <div class="form-wrapper marginbot-50">
-          <form id="contact-form">
-    <!-- ユーザー名テキストBOX -->
-    <div class="form-group">
-      <label for="exampleInputEmail1"><i class="fa fa-user fa-lg"></i>&nbsp;お名前</label>
-      <input type="text" class="form-control" placeholder="What your name ?" required="required">
-    </div>
-    <!-- /ユーザー名テキストBOX -->
-
-    <!-- メッセージテキストBOX -->
-    <div class="form-group">
-      <label for="exampleInputEmail1"><i class="fa fa-comment fa-lg"></i>&nbsp;メッセージ</label>
-      <textarea class="form-control" rows="3" placeholder="Please share your experience !" required="required"></textarea>
-    </div>
-    <!-- /メッセージテキストBOX -->
-
-    <!-- 画像投稿テキストボックス(1) -->
-    <div class="form-group">
-      <label for="exampleInputFile"><i class="fa fa-camera-retro fa-lg"></i>&nbsp;Befor画像アップロード</label>
-      <input type="file" id="exampleInputFile">
-    </div>
-    <!-- /画像投稿テキストボックス(1) -->
-
-    <!-- 画像投稿テキストボックス(2) -->
-    <div class="form-group">
-      <label for="exampleInputFile"><i class="fa fa-camera-retro fa-lg"></i>&nbsp;After画像アップロード</label>
-      <input type="file" id="exampleInputFile">
-    </div>
-    <!-- /画像投稿テキストボックス(2) -->
-
-</br>
-
-    <!-- 確認するボタン -->
-    <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">確認する</a>
-    <!-- /確認するボタン -->
-
-    </div>
-      </div>
-        </div>
-          </form>
-<!-- /投稿ブロック -->
-
-
-
-
-
-
 <!-- 髪型・季節別ソートボタン-->
     <div>
-      <a href="#gallery" class="btn btn-default btn-lg btn-scroll">ショート</a>
-      <a href="#gallery" class="btn btn-default btn-lg btn-scroll">ボブ</a>
-      <a href="#gallery" class="btn btn-default btn-lg btn-scroll">セミロング</a>
-      <a href="#gallery" class="btn btn-default btn-lg btn-scroll">ロング</a>
-      <a href="#gallery" class="btn btn-default btn-lg btn-scroll">その他</a></br>
+      <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">ショート</a>
+      <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">ボブ</a>
+      <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">セミロング</a>
+      <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">ロング</a>
+      <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">その他</a></br>
         </br>
       <a href="#gallery" class="btn btn-default btn-lg btn-scroll">春</a>
       <a href="#gallery" class="btn btn-default btn-lg btn-scroll">夏</a>
@@ -151,12 +96,8 @@
     </div>
 <!-- /髪型・季節別ソートボタン-->
 
-
-
-
-
-<div class="container">
-        <div class="row text-center">
+<!-- <div class="container">
+        <div class="row text-center"> -->
         </section>
 <!--         <div class="container">
             <div class="row">
@@ -483,7 +424,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12">
-                    <p>&copy;Copyright 2014 . Alice Lonely . design by <a href="">Bootstraptaste</a></p>
+                    <p>&copy;Copyright 2015 . Imachan . design by <a href="">Bootstraptaste</a></p>
                 </div>
             </div>
         </div>
