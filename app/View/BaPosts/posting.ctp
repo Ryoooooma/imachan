@@ -109,50 +109,59 @@
   <form method="post" action="./check" name="posting">
 
 <!--作成ちゅう-->
-    <div class="form-group">
-      <label for="exampleInputEmail1"><i class="fa fa-user fa-lg"></i>&nbsp;お名前</label>
-      <input type="text" class="form-control" placeholder="What your name ?" required="required">
-    </div>
+
 
 <!-- 作成ちゅう-->
 
 
     <!-- ユーザー名テキストBOX -->
-    <!-- <div class="form-group"> -->
-      <label for="exampleInputEmail1"><i class="fa fa-user fa-lg"></i>&nbsp;お名前</label>
-      <input type="text" class="form-control" placeholder="What your name ?" required="required">
-    <!-- </div> -->
+      <label for="InputName"><i class="fa fa-user fa-lg"></i>&nbsp;お名前</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="What your name ?" required="required">
     <!-- /ユーザー名テキストBOX -->
-
-    <!-- メッセージテキストBOX -->
-    <div class="form-group">
-      <label for="exampleInputEmail1"><i class="fa fa-comment fa-lg"></i>&nbsp;メッセージ</label>
-      <textarea class="form-control" rows="3" placeholder="Please share your experience !" required="required"></textarea>
+</br>
+    <!-- 男/女 -->
+    <div>
+      <input type="radio" value="radio_A" name="radio1" id="radio_a">
+      <label for="radio_a">&nbsp;男</label>
+      <input type="radio" value="radio_B" name="radio1" id="radio_b">
+      <label for="radio_b">&nbsp;女</label>
     </div>
-    <!-- /メッセージテキストBOX -->
-
-
+     <!-- /男/女 -->
+</br>
     <!-- 画像投稿テキストボックス(1) -->
-    <div class="form-group">
-      <label for="exampleInputFile"><i class="fa fa-camera-retro fa-lg"></i>&nbsp;Befor画像アップロード</label>
-      <input type="file" id="exampleInputFile">
-    </div>
+      <label for="InputFileB"><i class="fa fa-camera-retro fa-lg"></i>&nbsp;Befor画像アップロード</label>
+      <input type="file" name="file1" id="InputFileB">
     <!-- /画像投稿テキストボックス(1) -->
 
     <!-- 画像投稿テキストボックス(2) -->
-    <div class="form-group">
-      <label for="exampleInputFile"><i class="fa fa-camera-retro fa-lg"></i>&nbsp;After画像アップロード</label>
-      <input type="file" id="exampleInputFile">
-    </div>
+      <label for="InputFileA"><i class="fa fa-camera-retro fa-lg"></i>&nbsp;After画像アップロード</label>
+      <input type="file" name="file2" id="InputFileA">
     <!-- /画像投稿テキストボックス(2) -->
 
-
+    <!-- 髪型種類 -->
+    </br>
+    <div>
+      <input type="radio" value="radio_A" name="radio2" id="radio_c">
+      <label for="radio_c">&nbsp;ショート</label>
+      <input type="radio" value="radio_B" name="radio2" id="radio_d">
+      <label for="radio_d">&nbsp;ボブ</label>
+      <input type="radio" value="radio_B" name="radio2" id="radio_e">
+      <label for="radio_e">&nbsp;セミロング</label>
+      <input type="radio" value="radio_B" name="radio2" id="radio_f">
+      <label for="radio_f">&nbsp;ロング</label>
+      <input type="radio" value="radio_B" name="radio2" id="radio_g">
+      <label for="radio_g">&nbsp;その他</label>
+    </div>
+    <!-- /髪型種類 -->
 </br>
-
+    <!-- メッセージテキストBOX -->
+      <label for="InputMessage"><i class="fa fa-comment fa-lg"></i>&nbsp;メッセージ</label>
+      <textarea name="message" id="message" class="form-control" placeholder="Please share your experience !"></textarea>
+    <!-- /メッセージテキストBOX -->
+</br>
     <!-- 確認するボタン -->
-    <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">確認する</a>
+    <div><input type="submit" href="#gallery" class="btn btn-skin btn-lg btn-scroll"></div>
     <!-- /確認するボタン -->
-
     </div>
       </div>
         </div>
