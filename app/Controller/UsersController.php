@@ -12,7 +12,7 @@ class UsersController extends AppController {
 
     public function index() {
         // ログインできているか、ログアウトできているかを確認するDebugコード
-    	debug($this->Auth->user('id'));
+    	// debug($this->Auth->user('id'));
     }
 
     public function add() {
