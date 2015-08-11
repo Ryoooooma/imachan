@@ -1,10 +1,34 @@
 <?php
+// ↓ CakePHPに用意されているライブラリをロードするためのもの
+// App::uses('AppController', 'Controller');
+// ↓ ビューによる画面表示のON/OFF指定
+// $this -> autoRender = true;
+
 class BaPostsController extends AppController {
+    // ↓ $helpersではビューで利用できるヘルパーの一覧が保持されている
     public $helpers = array('Html', 'Form', 'Session');
-    public $components = array('Session');
+    // ↓ AppControllerの$componentsが上書きされちゃうから書かない
+    // public $components = array('Session', 'Auth');
+
 
     public function index() {
-        $this->set('baposts', $this->BaPost->find('all'));
+           $this->set('baposts', $this->BaPost->find('all'));
+    }
+
+    public function posting() {
+        // $this->set('baposts', $this->BaPost->find('all'));
+    }
+
+    public function check() {
+    //$text1 = $this -> data["text1"];
+    $text1 = $this->request->data["text1"];
+    $check1 = isset($this->request->data['check1']) ?
+      "On" : "Off";
+    //$radio1 = $this -> data["radio1"];
+    $radio1 = $this->request->data["radio1"];
+    $this -> set("text1", $text1);
+    $this -> set("check1", $check1);
+    $this -> set("radio1", $radio1);
     }
 
     public function view($id) {
