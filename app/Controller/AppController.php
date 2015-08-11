@@ -54,15 +54,13 @@ class AppController extends Controller {
     );
 
      public function isAuthorized($user) {
-    if (isset($user['role']) && $user['user_type'] === 'model') {
-        return true;
-    }
+    // if (isset($user['role']) && $user['user_type'] === 'model') {
+    //     return true;
+    // }
 
     // デフォルトは拒否
-    return false;
+    return true;
     }
 
-    public function beforeFilter() {
-        $this->Auth->allow('index', 'view');
-    }
+
 }

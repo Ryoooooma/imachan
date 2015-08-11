@@ -21,7 +21,7 @@ ID	id	int	NO	PRI	作成時に取得	auto_increment
 create table users (
 	id int not null primary key auto_increment,
 	name varchar(100) not null,
-	password varchar(100) not null,
+	password varchar(255) not null,
 	user_type varchar(10) not null,
 	gender varchar(10) not null,
 	phone int not null,
@@ -31,6 +31,9 @@ create table users (
 	created datetime not null,
 	modified datetime not null
 );
+
+alter table users change name password(255);
+ALTER TABLE test_table CHANGE NAME username varchar(256);
 
 insert into  (title, body, created, modified) values 
 ('title_1', 'body_1', 'now()', 'now()'),
