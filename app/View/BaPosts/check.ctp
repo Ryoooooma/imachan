@@ -79,7 +79,7 @@
 <p>Befor画像: <?php echo $file1; ?></p>
 <p>After画像: <?php echo $file2; ?></p>
 <p>髪型type: <?php echo $radio2; ?></p>
-<p>メッセージ: <?php echo $rmessage; ?></p>
+<p>メッセージ: <?php echo $message; ?></p>
 
 <form method="post" action="./add">
    <input type="hidden" name="text1" value="<?php $text1; ?>">

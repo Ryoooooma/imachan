@@ -5,15 +5,18 @@
 // $this -> autoRender = true;
 
 class BaPostsController extends AppController {
+    // ↓ $helpersではビューで利用できるヘルパーの一覧が保持されている
     public $helpers = array('Html', 'Form', 'Session');
-    public $components = array('Session');
+    // ↓ AppControllerの$componentsが上書きされちゃうから書かない
+    // public $components = array('Session', 'Auth');
+
 
     public function index() {
-        $this->set('baposts', $this->BaPost->find('all'));
+           $this->set('baposts', $this->BaPost->find('all'));
     }
 
     public function posting() {
-        $this->set('baposts', $this->BaPost->find('all'));
+        // $this->set('baposts', $this->BaPost->find('all'));
     }
 
     public function check() {
