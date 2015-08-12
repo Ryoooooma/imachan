@@ -15,7 +15,7 @@
 <body>
     <?php echo $this->Html->link(
     'Add',
-    array('controller' => 'UserRecruitPosts', 'action' => 'add')
+    array('controller' => 'UserRecruitPosts', 'action' => 'posting')
 ); ?>
 <table>
     <tr>
