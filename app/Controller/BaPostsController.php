@@ -12,11 +12,12 @@ class BaPostsController extends AppController {
 
 
     public function index() {
-           $this->set('baposts', $this->BaPost->find('all'));
+    // ↓ 投稿一覧データを取得。set() でコントローラーからビューにデータを渡す。
+    $this->set('baposts', $this->BaPost->find('all'));
     }
 
     public function posting() {
-        // $this->set('baposts', $this->BaPost->find('all'));
+    $this->set('baposts', $this->BaPost->find('all'));
     }
 
     public function check() {

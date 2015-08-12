@@ -371,16 +371,22 @@
                         <span class="color-white">お気に入り</span>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3">
+
+<!-- 投稿アイコン(リンク) -->
+                    <!-- <div class="col-xs-6 col-sm-3 col-md-3"> -->
+                    <a href="/imachan/BaPosts/posting">
                         <div class="align-center txt-shadow">
                             <div class="icon">
                                 <i class="fa fa-camera fa-5x"></i>
                             </div>
                         <span class="color-white">投稿</span>
                         </div>
-                    </div>
-            </div>
+                    <a>
+                    <!-- </div> -->
+<!-- /投稿アイコン(リンク) -->
+
         </div>
+            </div>
     </section>
     <!-- /Section: separator -->
 

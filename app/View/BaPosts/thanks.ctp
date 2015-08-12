@@ -7,10 +7,10 @@ echo $this->Form->end('Save Post');
 
 // ↓作成中
 
-echo $this->Form->create('BePost');
-echo $this->Form->input('title');
-echo $this->Form->input('body', array('rows' => '3'));
-echo $this->Form->end('Save Post');
+// echo $this->Form->create('BePost');
+// echo $this->Form->input('title');
+// echo $this->Form->input('body', array('rows' => '3'));
+// echo $this->Form->end('Save Post');
 
 // ↑作成中
 ?>

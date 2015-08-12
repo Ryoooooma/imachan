@@ -169,48 +169,6 @@
 <p>
 <!-- /投稿ブロック -->
 
-    <!-- Section: separator -->
-    <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="align-center txt-shadow">
-                            <div class="icon">
-                                <i class="fa fa-comment fa-5x"></i>
-                            </div>
-                        <span class="color-white">コメント履歴</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="align-center txt-shadow">
-                            <div class="icon">
-                                <i class="fa fa-paint-brush fa-5x"></i>
-                            </div>
-                        <span class="color-white">投稿履歴</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="align-center txt-shadow">
-                            <div class="icon">
-                                <i class="fa fa-heart fa-5x"></i>
-                            </div>
-                        <span class="color-white">お気に入り</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="align-center txt-shadow">
-                            <div class="icon">
-                                <i class="fa fa-camera fa-5x"></i>
-                            </div>
-                        <span class="color-white">投稿</span>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Section: separator -->
-
 <!-- フッダー-->
     <footer>
         <div class="container">
