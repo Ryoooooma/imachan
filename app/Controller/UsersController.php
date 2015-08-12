@@ -7,9 +7,12 @@ class UsersController extends AppController {
     }
 
     public $helpers = array('Html', 'Form','Session');
+    public $uses = array('User');
+
 
     public function index() {
-    	
+        // ログインできているか、ログアウトできているかを確認するDebugコード
+    	// debug($this->Auth->user('id'));
     }
 
     public function add() {
@@ -37,7 +40,7 @@ class UsersController extends AppController {
             
             $user=$this->Session->read('User');
 
-            $this->request->data['User']['name'] = $user['name'];
+            $this->request->data['User']['username'] = $user['username'];
             $this->request->data['User']['password'] = $user['password'];
             $this->request->data['User']['user_type'] = $user['user_type'];
 
@@ -63,7 +66,8 @@ class UsersController extends AppController {
 
 
     public function logout() {
-        $this->redirect($this->Auth->logout());
+        $this->Auth->logout();
+        $this->redirect('index');
     }
 
 
