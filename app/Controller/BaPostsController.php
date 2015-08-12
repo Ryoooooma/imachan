@@ -6,7 +6,7 @@
 
 class BaPostsController extends AppController {
     // ↓ $helpersではビューで利用できるヘルパーの一覧が保持されている
-    public $helpers = array('Html', 'Form', 'Session');
+    public $helpers = array('Html', 'Form', 'Session','Time');
     // ↓ AppControllerの$componentsが上書きされちゃうから書かない
     // public $components = array('Session', 'Auth');
 
