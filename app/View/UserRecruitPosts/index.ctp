@@ -19,32 +19,38 @@
 </head>
 
 <body>
+
+  <!-- cut_contentで検索させてます -->
+  <?php
+        echo $this->Form->create('UserRecruitPost');
+        echo $this->Form->input('keyword',array('placeholder'=>'検索ワード入力','label'=>false));
+        echo $this->Form->button('Search',array('type'=>'submit','label'=>false));
+        echo $this->Form->end();
+    ?>
+
+    <?php echo "<br>"; ?>
+
 <?php echo $this->Html->link(
     'Add',
     array('controller' => 'UserRecruitPosts', 'action' => 'add')
 ); ?>
-<table>
+
+<table class="table table-bordered table-hover">
     <tr>
         <th>Id</th>
-        <th>Title</th>
-        <th>Created</th>
+        <th>Cut_Content</th>
     </tr>
 
     <!-- ここから、$posts配列をループして、投稿記事の情報を表示 -->
 
-    <?php foreach ($userrecruitposts as $post): ?>
+    <?php foreach ($posts as $post){ ?>
     <tr>
         <td><?php echo $post['UserRecruitPost']['id']; ?></td>
-        <td>
-            <?php echo $this->Html->link($post['UserRecruitPost']['title'],
-array('controller' => 'userrecruitposts', 'action' => 'view', $post['UserRecruitPost']['id'])); ?>
-        </td>
-        <td><?php echo $post['UserRecruitPost']['created']; ?></td>
+        <td><?php echo $post['UserRecruitPost']['cut_content']; ?></td>
     </tr>
-    <?php endforeach; ?>
+    <?php } ?>
     <?php unset($post); ?>
 </table>
-
 
 
 
