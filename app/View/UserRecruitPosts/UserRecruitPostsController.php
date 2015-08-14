@@ -57,14 +57,10 @@ class UserRecruitPostsController extends AppController {
         $this->set('userrecruitposts', $this->UserRecruitPost->find('all'));
          if ($this->request->is('post'))
           {
-            $image =date('YmdHis') . $_FILES['data']['name']['UserRecruitPost']['picture'];
             move_uploaded_file($_FILES['data']['tmp_name']['UserRecruitPost']['picture'], '/var/www/html/imachan/app/webroot/img/post_thumbnail/'.$image);
 
             $this->Session->write('UserRecruitPost',$this->request->data['UserRecruitPost']);
-            debug($image);
-            debug($_FILES['data']['tmp_name']['UserRecruitPost']['picture']);
-            debug($_FILES);
-            // return $this->redirect(array('action' => 'check'));
+            return $this->redirect(array('action' => 'check'));
             // $this->UserRecruitPost->create();
             // if ($this->UserRecruitPost->save($this->request->data)) {
             //     $this->Session->setFlash(__('Your userrecruitposts has been saved.'));

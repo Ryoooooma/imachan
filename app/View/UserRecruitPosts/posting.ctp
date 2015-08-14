@@ -29,7 +29,7 @@
       <div class="tab-pane active in" id="home">
         <div class="sample1">
         <!-- <form id="tab"> -->
-                <?php echo $this->Form->create('UserRecruitPost'); ?>
+                <?PHP echo $this->Form->create('UserRecruitPost', array('enctype' => 'multipart/form-data' )); ?>
                 <input type="hidden" NAME="_template_confirm" VALUE="kakunin.tpl">
                 <h2>モデル募集フォーム</h2>
                 </br>
@@ -37,47 +37,66 @@
                 </br>
                 【施術内容】　(※必須)<br>
               
-                <?php echo $this->Form->input( 'cut_content', array()); ?>
- 
+                <?php echo $this->Form->input('cut_content', array(
+                    'label' => false));?>
 
                  </br>
                  </br>
                 【対象性別】　(※必須)</br>
-                <?php echo $this->Form->input('gender'); ?>
-
+                <?php echo $this->Form->input('gender', array(
+                    'label' => false));?>
                  </br>
 
                 【対象モデル】　(※必須)</br>
                 ※髪の長さ、髪色などの条件を入力してください。</br>
-                <?php echo $this->Form->input('hair_style'); ?>
+                <?php echo $this->Form->input('hair_style', array(
+                    'label' => false));?>
                 </br>
                 【料金】　　　　(※必須)
-                <?php echo $this->Form->input('fee'); ?>
+                <?php echo $this->Form->input('fee', array(
+                    'label' => false));?>
                 </br>
                 【募集時間帯】　(※必須)
-                <?php echo $this->Form->input('meeting_time'); ?>
-                </br>
+                <?php echo $this->Form->input('meeting_time', array(
+                    'label' => false));?>
                 【募集開始日】　(※必須)</br>
                 <p>
-                   <?php echo $this->Form->input('created'); ?>
+                   <?php echo $this->Form->input('created', array(
+                    'label' => false));?>
                  </br>
                 
                 【募集終了日】　(※必須)</br>
                 <p>
-                   <?php echo $this->Form->input('modified'); ?>
+                   <?php echo $this->Form->input('modified', array(
+                    'label' => false));?>
                  </br>
 
                 
                【募集の題名】　(※必須)
-                <?php echo $this->Form->input('title'); ?>
+                <?php echo $this->Form->input('title', array(
+                    'label' => false));?>
                 </br>
 
              　【募集の詳細】　(※必須)</br>
-             　　<?php echo $this->Form->input('message'); ?>
+             　　<?php echo $this->Form->input('message', array(
+                    'label' => false));?>
+                </br>
+
+               【店舗画像】　(※必須)</br>
+             　　<?php echo $this->Form->file('picture', array(
+                    'label' => false));?>
 
                 </br>
-                <?php echo $this->Form->end('確認画面へ'); ?>
-                </div>
+                <?php echo $this->Form->end('確認画面へ', array(
+                    'label' => false));?>
+
+
+                
+                
+                
+                
+                
+
             </div>
             </div>
         </div>
