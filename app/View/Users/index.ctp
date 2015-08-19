@@ -48,12 +48,14 @@
               <div class="panel-body">
                 <div class="row">
                   <div class="col-lg-12">
-                    <form id="login-form" action="http://phpoll.com/login/process" method="post" role="form" style="display: block;">
+                    <form id="login-form">
                       <div class="form-group">
-                        <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                        <?php echo $this->Session->flash('auth'); ?>
+                        <?php echo $this->Form->create('User', array('action' => 'login')); ?>
+                        <?php echo $this->Form->input('username', array('label' => 'お名前')); ?>
                       </div>
                       <div class="form-group">
-                        <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                        <?php echo $this->Form->input('password', array('label' => 'パスワード')); ?>
                       </div>
                       <div class="form-group text-center">
                         <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
@@ -62,7 +64,7 @@
                       <div class="form-group">
                         <div class="row">
                           <div class="col-sm-6 col-sm-offset-3">
-                            <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+                            <?php echo $this->Form->end('Login'); ?>
                           </div>
                         </div>
                       </div>
@@ -84,6 +86,7 @@
         </div>
       </div>
   
+
       <div class="page-scroll">
       <a href="#about">
         <i class="fa fa-angle-down fa-5x animated"></i>
@@ -120,12 +123,9 @@
         <div class="col-md-6">
           <p><strong>まずはユーザー登録！</strong></p>
           <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          当サイトではユーザーのタイプが2つ存在します。1つは「カットモデル」、もう1つは「スタイリスト」。スタイリストさんに髪を切ってもらいたい方はカットモデルを、カットモデルさんの髪を切りたい方は「スタイリスト」をご指定いただき、ご登録をお願い致します。
           </p>
-          <blockquote>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </blockquote>
-          <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">See my photos</a>
+          <a href="" class="btn btn-skin btn-lg btn-scroll">Go to Signup</a>
         </div>
       </div>    
     </div>
@@ -138,12 +138,9 @@
         <div class="col-md-6">
           <p><strong>お気に入りのサロンを予約しよう！</strong></p>
           <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          スタイリストの皆さんが投稿した「こんなモデルさん募集しています！」という一覧の中から、自分に合うヘアサロンの予約をしよう。数日以内にスタイリストさんから連絡が来ますので、その後スケジュールを調整した上で詳細予約を完了させてください。
           </p>
-          <blockquote>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </blockquote>
-          <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">See my photos</a>
+          <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">Go to Recruitment</a>
         </div>
       </div>    
     </div>
@@ -156,12 +153,9 @@
         <div class="col-md-6">
           <p><strong>あとはサロンに行くだけ！</strong></p>
           <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          予約した日時に合わせて、サロンに向かいます。（15分以上の遅刻は厳禁とさせていただきます）カット後、お時間あるときに当サイトのビフォーアフタータイムラインにカット前とカット後の写真を投稿してください
           </p>
-          <blockquote>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </blockquote>
-          <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">See my photos</a>
+          <a href="#gallery" class="btn btn-skin btn-lg btn-scroll">Go to Photo garally</a>
         </div>
       </div>    
     </div>

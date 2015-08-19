@@ -35,6 +35,8 @@ create table users (
 alter table users change name password(255);
 ALTER TABLE test_table CHANGE NAME username varchar(256);
 
+alter table users change name username varchar(100);
+
 insert into  (title, body, created, modified) values 
 ('title_1', 'body_1', 'now()', 'now()'),
 ('title_2', 'body_2', 'now()', 'now()'),
