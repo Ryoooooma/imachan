@@ -29,8 +29,10 @@
 <p>
   <form method="post" action="./check" name="form1">
     <div><input type="text" name="text1" id="text1"></div>
+
     <div><input type="checkbox" name="check1" id="check1">
     <label for="check1">check1</label></div>
+
     <div><input type="radio" value="radio_A"
       name="radio1" id="radio_a">
     <label for="radio_a">Radio A</label>
@@ -107,11 +109,6 @@
         <div class="form-wrapper marginbot-50">
 <p>
   <form method="post" action="./check" name="posting">
-
-<!--作成ちゅう-->
-
-
-<!-- 作成ちゅう-->
 
 
     <!-- ユーザー名テキストBOX -->
