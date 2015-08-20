@@ -37,10 +37,13 @@
               			</div>
       		  			<div class="collapse navbar-collapse" id="menu">
                         	<ul class="nav navbar-nav">
-                            	<li class="active"><a href="#intro">Home</a></li>
-                                <li><a href="#about">model recruitment</a></li>
-         			 			<li><a href="#gallery">Post</a></li>                                   
-                                <li><a href="#contact">photo garally</a></li>
+                            	<li class="active"><a href="http://geechscamp.lovepop.jp/imachan/">Home</a></li>
+                                <li><a href="http://geechscamp.lovepop.jp/imachan/userrecruitmentposts/index">model recruitment</a></li>
+         			 			<li><a href="http://geechscamp.lovepop.jp/imachan/userrecruitmentposts/posting">Post</a></li>
+                                <li><a href="http://geechscamp.lovepop.jp/imachan/baposts/index">photo garally</a></li>
+                                <li><a href="http://geechscamp.lovepop.jp/imachan/users/add">Signup</a></li>
+                                <li><a href="http://geechscamp.lovepop.jp/imachan/users/login">Login</a></li>
+                                <li><?php echo $this->Html->link('Logout', '/users/logout/'); ?></li>
                             </ul>
                         </div>
             		</div>

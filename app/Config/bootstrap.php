@@ -115,4 +115,5 @@ CakeLog::config('error', array(
 
 CakePlugin::load('DebugKit');
 CakePlugin::load('Search');
+CakePlugin::load('Upload');
 
