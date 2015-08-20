@@ -19,13 +19,53 @@
 </head>
 
 <body>
+<<<<<<< HEAD
+=======
+
+  <!-- cut_contentで検索させてます -->
+  <?php
+        echo $this->Form->create('UserRecruitPost');
+        echo $this->Form->input('keyword',array('placeholder'=>'検索ワード入力','label'=>false));
+        echo $this->Form->button('Search',array('type'=>'submit','label'=>false));
+        echo $this->Form->end();
+    ?>
+
+    <?php echo "<br>"; ?>
+
+<?php echo $this->Html->link(
+    'Add',
+    array('controller' => 'UserRecruitPosts', 'action' => 'add')
+); ?>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Id</th>
+        <th>Cut_Content</th>
+    </tr>
+
+    <!-- ここから、$posts配列をループして、投稿記事の情報を表示 -->
+
+    <?php foreach ($posts as $post){ ?>
+    <tr>
+        <td><?php echo $post['UserRecruitPost']['id']; ?></td>
+        <td><?php echo $post['UserRecruitPost']['cut_content']; ?></td>
+    </tr>
+    <?php } ?>
+    <?php unset($post); ?>
+</table>
+
+>>>>>>> 1d09d53a6332df4586da2fbabe550b0e94ef2590
 
 
 
 
 
+<<<<<<< HEAD
 
 	
+=======
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+>>>>>>> 1d09d53a6332df4586da2fbabe550b0e94ef2590
     </br>
 	<div class="sample1">
   <h3>現在の募集リスト</h3>

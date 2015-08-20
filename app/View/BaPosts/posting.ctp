@@ -29,8 +29,10 @@
 <p>
   <form method="post" action="./check" name="form1">
     <div><input type="text" name="text1" id="text1"></div>
+
     <div><input type="checkbox" name="check1" id="check1">
     <label for="check1">check1</label></div>
+
     <div><input type="radio" value="radio_A"
       name="radio1" id="radio_a">
     <label for="radio_a">Radio A</label>
@@ -108,11 +110,6 @@
 <p>
   <form method="post" action="./check" name="posting">
 
-<!--作成ちゅう-->
-
-
-<!-- 作成ちゅう-->
-
 
     <!-- ユーザー名テキストBOX -->
       <label for="InputName"><i class="fa fa-user fa-lg"></i>&nbsp;お名前</label>
@@ -168,48 +165,6 @@
   </form>
 <p>
 <!-- /投稿ブロック -->
-
-    <!-- Section: separator -->
-    <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="align-center txt-shadow">
-                            <div class="icon">
-                                <i class="fa fa-comment fa-5x"></i>
-                            </div>
-                        <span class="color-white">コメント履歴</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="align-center txt-shadow">
-                            <div class="icon">
-                                <i class="fa fa-paint-brush fa-5x"></i>
-                            </div>
-                        <span class="color-white">投稿履歴</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="align-center txt-shadow">
-                            <div class="icon">
-                                <i class="fa fa-heart fa-5x"></i>
-                            </div>
-                        <span class="color-white">お気に入り</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="align-center txt-shadow">
-                            <div class="icon">
-                                <i class="fa fa-camera fa-5x"></i>
-                            </div>
-                        <span class="color-white">投稿</span>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Section: separator -->
 
 <!-- フッダー-->
     <footer>
