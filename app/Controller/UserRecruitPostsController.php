@@ -31,15 +31,19 @@ class UserRecruitPostsController extends AppController {
     public function check() { 
 
         $UserRecruitPost = $this->Session->read('UserRecruitPost');
+        $image = $this->Session->read('image');
+
 
     	$this->set('userrecruitposts', $UserRecruitPost);
         if ($this->request->is('post')) {
 
-            
+            $this->request->data['UserRecruitPost'] = $UserRecruitPost;
+
             $this->request->data['UserRecruitPost']['cut_content'] = $UserRecruitPost['cut_content'];
+             $this->request->data['UserRecruitPost']['picture'] = $image;
 
             $this->UserRecruitPost->create();
-            if ($this->UserRecruitPost->save($UserRecruitPost)) {
+            if ($this->UserRecruitPost->save($this->request->data)) {
                 $this->Session->setFlash(__('Your userrecruitposts has been saved.'));
                 return $this->redirect(array('action' => 'index'));
             }
@@ -61,10 +65,11 @@ class UserRecruitPostsController extends AppController {
             move_uploaded_file($_FILES['data']['tmp_name']['UserRecruitPost']['picture'], '/var/www/html/imachan/app/webroot/img/post_thumbnail/'.$image);
 
             $this->Session->write('UserRecruitPost',$this->request->data['UserRecruitPost']);
-            debug($image);
-            debug($_FILES['data']['tmp_name']['UserRecruitPost']['picture']);
-            debug($_FILES);
-            // return $this->redirect(array('action' => 'check'));
+             $this->Session->write('image',$image);
+            // debug($image);
+            // debug($_FILES['data']['tmp_name']['UserRecruitPost']['picture']);
+            // debug($_FILES);
+            return $this->redirect(array('action' => 'check'));
             // $this->UserRecruitPost->create();
             // if ($this->UserRecruitPost->save($this->request->data)) {
             //     $this->Session->setFlash(__('Your userrecruitposts has been saved.'));

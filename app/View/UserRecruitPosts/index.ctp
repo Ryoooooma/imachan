@@ -19,39 +19,13 @@
 </head>
 
 <body>
-<?php echo $this->Html->link(
-    'Add',
-    array('controller' => 'UserRecruitPosts', 'action' => 'add')
-); ?>
-<table>
-    <tr>
-        <th>Id</th>
-        <th>Title</th>
-        <th>Created</th>
-    </tr>
-
-    <!-- ここから、$posts配列をループして、投稿記事の情報を表示 -->
-
-    <?php foreach ($userrecruitposts as $post): ?>
-    <tr>
-        <td><?php echo $post['UserRecruitPost']['id']; ?></td>
-        <td>
-            <?php echo $this->Html->link($post['UserRecruitPost']['title'],
-array('controller' => 'userrecruitposts', 'action' => 'view', $post['UserRecruitPost']['id'])); ?>
-        </td>
-        <td><?php echo $post['UserRecruitPost']['created']; ?></td>
-    </tr>
-    <?php endforeach; ?>
-    <?php unset($post); ?>
-</table>
 
 
 
 
 
 
-
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	
     </br>
 	<div class="sample1">
   <h3>現在の募集リスト</h3>
@@ -90,39 +64,44 @@ array('controller' => 'userrecruitposts', 'action' => 'view', $post['UserRecruit
 
 
   <!-- Preloader -->
-               
-                           
-                            <div style="margin: 0 auto; background:#f7f7f7; padding:10px; border-radius: 10px; border: 3px dotted #ffb6c1;width:450px;">
-                              <div style="border-style: solid ; border-width: 1px; padding: 5px 5px 5px 5px;width:50px;">
-                              顔写真
-                              </div>　　　　　　　　　　　　　　　　　　　　　
-                            　<div style="border-style: solid ; border-width: 1px; padding: 5px 5px 5px 5px;">
 
-                              <p>店舗写真</p>
-                              </br>
-                              </br>
-                              </br>
-                              
-                              </div>
-                              
-                              </br>
-                              <div style="border-style: solid ; border-width: 1px; padding: 1px 5px 5px 5px;">
-                              <h4>
-                              <p>投稿者:</p>
-                              <p>場所:</P>
-                              <p>日付:</p>
-                              </h4>
-                              </div>
 
-                              
-                              <p class="media-comment">
-                              </p>
-                            <button class="btn btn-primary">詳細をみる</button>
+<table>
+    <?php foreach ($userrecruitposts as $post): ?>
+    <tr>
+    <!-- ここから、$posts配列をループして、投稿記事の情報を表示 -->
+        <td>
+          <div style="margin: 0 auto; background:#f7f7f7; padding:10px; border-radius: 10px; border: 3px dotted #ffb6c1;width:450px;">
+          <div style=": solid ; border-width: 1px; padding: 5px 5px 5px 5px;width:50px;">
+                    
+          </div>　　　　　　　　　　　　　　　　　　　　　
+          <div style=": solid ; border-width: 1px; padding: 5px 5px 5px 5px;">
+           
+              </br>
+              <img width="80" src ="../img/post_thumbnail/<?php echo $post['UserRecruitPost']['picture']; ?>">
+          </br>
+          </div>        
+          </br>
+          <div style=": solid ; border-width: 1px; padding: 1px 5px 5px 5px;">
+           <h4>
+           <p>投稿者:</p>
+           <p>施術内容:<?php echo $post['UserRecruitPost']['cut_content']; ?></P>
+           <p>日付:<?php echo $post['UserRecruitPost']['meeting_time']; ?></p>
+           </h4>
+          </div>
+           <p class="media-comment">
+          </p>
+           <button class="btn btn-primary">詳細をみる</button>
 
-                            </div>
+          </div>
 
-                          </div>              
-                        </div>
+          </div>              
+          </div>  
+
+        </td>
+      
+       </tr>
+       <?php endforeach; ?>
   <!-- /Section: about -->
   </br>
                             </br>
